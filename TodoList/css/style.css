@@ -1,0 +1,87 @@
+body{
+position: relative;
+}
+.container{
+    margin: 50px 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+h1{
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.info input{
+    padding: 15px;
+    width: 400px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 170px;
+    font-size: 15px;
+}
+input::-webkit-input-placeholder{
+    font-style: italic;
+    font-size: 15px;
+}
+
+.info button{
+    margin-left: -10px;
+    padding: 15px;
+    width: 100px;
+    background-color: #4CAF50;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.info button:hover {
+    cursor: pointer;
+}
+
+.info button:hover span {
+    color: white;
+}
+.info button span{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    
+}
+table td,table th{
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+table{
+    width: 800px;
+}
+table tr:hover {background-color: #ddd;}
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+.btn{
+    border: 1px solid black;
+    padding: 15px 20px;
+    margin: 10px 0;
+    font-size: 15px;
+    color:white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btnDelete{
+    background-color: rgb(209, 20, 20);
+}
+.btnComplete{
+    background-color: rgb(20, 118, 209);
+}
